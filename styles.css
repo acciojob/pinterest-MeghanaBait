@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.hero img{
+	width:70%;
+	height:70%;
+	object-fit:cover;
+}
+
+.hero div{
+	padding:5%;
+	text-align:center;
+}
+
+.hero div h1{
+	font-weight:700;
+	font-size:40px;
+}
+
+.hero div p{
+	padding:10px 0;
+}
+
+.hero div button{
+	padding:10px;
+	border:none;
+	background-color:red;
+	color:white;
+	border-radius:9px;
+	
+}
+
+.hero div button a{
+	text-decoration:none;
+	color:white;
+	font-weight:700;
+}
